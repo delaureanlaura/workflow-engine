@@ -1,5 +1,3 @@
-
-
 import json
 import time
 from pathlib import Path
@@ -22,24 +20,15 @@ class WorkflowEngine:
     # ------------------------------------------------------------------ #
 
     def load_from_file(self, path: str | Path) -> None:
-        """Lê o arquivo JSON e constrói o grafo."""
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
         self._build_graph(data)
 
     def load_from_dict(self, data: dict) -> None:
-        """Constrói o grafo a partir de um dicionário já carregado."""
         self._build_graph(data)
 
     def _build_graph(self, data: dict) -> None:
-        """
-        Formato esperado do JSON:
-        {
-          "tasks": [
-            { "id": "T1", "name": "...", "priority": 5, "dependencies": ["T2", "T3"] }
-          ]
-        }
-        """
+
         self.graph = Graph()
 
         tasks = data.get("tasks", [])

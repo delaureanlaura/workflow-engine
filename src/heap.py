@@ -1,13 +1,3 @@
-"""
-RF04 — Fila de Prioridade (Max-Heap)
-
-Implementação manual de um Max-Heap binário.
-Complexidade:
-  - insert:    O(log N)
-  - extract_max: O(log N)
-  - peek:      O(1)
-  - build:     O(N)
-"""
 
 from dataclasses import dataclass, field
 from typing import Any
@@ -15,10 +5,7 @@ from typing import Any
 
 @dataclass(order=True)
 class Task:
-    """
-    Representa uma tarefa pronta para execução.
-    A comparação é baseada apenas na prioridade (urgência).
-    """
+
     priority: int                          # Maior = mais urgente
     task_id: str   = field(compare=False)
     metadata: dict = field(compare=False, default_factory=dict)
@@ -28,16 +15,6 @@ class Task:
 
 
 class MaxHeap:
-    """
-    Max-Heap binário sobre lista contígua.
-
-    Invariante: heap[i] >= heap[2i+1] e heap[i] >= heap[2i+2]
-
-    Indexação (base-0):
-      pai(i)         = (i - 1) // 2
-      filho_esq(i)   = 2*i + 1
-      filho_dir(i)   = 2*i + 2
-    """
 
     def __init__(self):
         self._data: list[Task] = []
@@ -63,7 +40,7 @@ class MaxHeap:
     # ------------------------------------------------------------------ #
 
     def _sift_up(self, i: int) -> None:
-        """Sobe o elemento na posição i até restaurar a invariante. O(log N)"""
+
         while i > 0:
             p = self._parent(i)
             if self._data[i] > self._data[p]:
@@ -73,7 +50,7 @@ class MaxHeap:
                 break
 
     def _sift_down(self, i: int) -> None:
-        """Desce o elemento na posição i até restaurar a invariante. O(log N)"""
+
         n = len(self._data)
         while True:
             largest = i
@@ -96,12 +73,12 @@ class MaxHeap:
     # ------------------------------------------------------------------ #
 
     def insert(self, task: Task) -> None:
-        """Insere uma tarefa na heap. O(log N)"""
+
         self._data.append(task)
         self._sift_up(len(self._data) - 1)
 
     def extract_max(self) -> Task:
-        """Remove e retorna a tarefa de maior prioridade. O(log N)"""
+
         if not self._data:
             raise IndexError("Heap vazia: nenhuma tarefa disponível.")
 
@@ -113,16 +90,12 @@ class MaxHeap:
         return max_task
 
     def peek(self) -> Task:
-        """Retorna a tarefa de maior prioridade sem remover. O(1)"""
         if not self._data:
             raise IndexError("Heap vazia.")
         return self._data[0]
 
     def build_from(self, tasks: list[Task]) -> None:
-        """
-        Constrói a heap a partir de uma lista já existente.
-        Algoritmo de Floyd — O(N), mais eficiente que N inserções.
-        """
+
         self._data = list(tasks)
         # Começa do último nó interno e desce todos
         for i in range(len(self._data) // 2 - 1, -1, -1):
