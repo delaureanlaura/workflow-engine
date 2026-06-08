@@ -1,0 +1,308 @@
+{
+  "status": "success",
+  "total_tasks": 50,
+  "total_edges": 103,
+  "elapsed_ms": 0.396,
+  "execution_order": [
+    {
+      "step": 1,
+      "task_id": "T000018",
+      "name": "Agente-18",
+      "priority": 100
+    },
+    {
+      "step": 2,
+      "task_id": "T000007",
+      "name": "Agente-7",
+      "priority": 98
+    },
+    {
+      "step": 3,
+      "task_id": "T000036",
+      "name": "Agente-36",
+      "priority": 98
+    },
+    {
+      "step": 4,
+      "task_id": "T000008",
+      "name": "Agente-8",
+      "priority": 98
+    },
+    {
+      "step": 5,
+      "task_id": "T000027",
+      "name": "Agente-27",
+      "priority": 88
+    },
+    {
+      "step": 6,
+      "task_id": "T000037",
+      "name": "Agente-37",
+      "priority": 85
+    },
+    {
+      "step": 7,
+      "task_id": "T000030",
+      "name": "Agente-30",
+      "priority": 82
+    },
+    {
+      "step": 8,
+      "task_id": "T000032",
+      "name": "Agente-32",
+      "priority": 77
+    },
+    {
+      "step": 9,
+      "task_id": "T000026",
+      "name": "Agente-26",
+      "priority": 77
+    },
+    {
+      "step": 10,
+      "task_id": "T000002",
+      "name": "Agente-2",
+      "priority": 76
+    },
+    {
+      "step": 11,
+      "task_id": "T000006",
+      "name": "Agente-6",
+      "priority": 76
+    },
+    {
+      "step": 12,
+      "task_id": "T000012",
+      "name": "Agente-12",
+      "priority": 74
+    },
+    {
+      "step": 13,
+      "task_id": "T000020",
+      "name": "Agente-20",
+      "priority": 73
+    },
+    {
+      "step": 14,
+      "task_id": "T000005",
+      "name": "Agente-5",
+      "priority": 72
+    },
+    {
+      "step": 15,
+      "task_id": "T000031",
+      "name": "Agente-31",
+      "priority": 70
+    },
+    {
+      "step": 16,
+      "task_id": "T000045",
+      "name": "Agente-45",
+      "priority": 70
+    },
+    {
+      "step": 17,
+      "task_id": "T000039",
+      "name": "Agente-39",
+      "priority": 67
+    },
+    {
+      "step": 18,
+      "task_id": "T000044",
+      "name": "Agente-44",
+      "priority": 66
+    },
+    {
+      "step": 19,
+      "task_id": "T000004",
+      "name": "Agente-4",
+      "priority": 65
+    },
+    {
+      "step": 20,
+      "task_id": "T000024",
+      "name": "Agente-24",
+      "priority": 64
+    },
+    {
+      "step": 21,
+      "task_id": "T000048",
+      "name": "Agente-48",
+      "priority": 60
+    },
+    {
+      "step": 22,
+      "task_id": "T000046",
+      "name": "Agente-46",
+      "priority": 53
+    },
+    {
+      "step": 23,
+      "task_id": "T000021",
+      "name": "Agente-21",
+      "priority": 51
+    },
+    {
+      "step": 24,
+      "task_id": "T000014",
+      "name": "Agente-14",
+      "priority": 49
+    },
+    {
+      "step": 25,
+      "task_id": "T000017",
+      "name": "Agente-17",
+      "priority": 49
+    },
+    {
+      "step": 26,
+      "task_id": "T000011",
+      "name": "Agente-11",
+      "priority": 49
+    },
+    {
+      "step": 27,
+      "task_id": "T000023",
+      "name": "Agente-23",
+      "priority": 47
+    },
+    {
+      "step": 28,
+      "task_id": "T000010",
+      "name": "Agente-10",
+      "priority": 46
+    },
+    {
+      "step": 29,
+      "task_id": "T000041",
+      "name": "Agente-41",
+      "priority": 44
+    },
+    {
+      "step": 30,
+      "task_id": "T000019",
+      "name": "Agente-19",
+      "priority": 41
+    },
+    {
+      "step": 31,
+      "task_id": "T000033",
+      "name": "Agente-33",
+      "priority": 40
+    },
+    {
+      "step": 32,
+      "task_id": "T000028",
+      "name": "Agente-28",
+      "priority": 38
+    },
+    {
+      "step": 33,
+      "task_id": "T000016",
+      "name": "Agente-16",
+      "priority": 35
+    },
+    {
+      "step": 34,
+      "task_id": "T000040",
+      "name": "Agente-40",
+      "priority": 32
+    },
+    {
+      "step": 35,
+      "task_id": "T000049",
+      "name": "Agente-49",
+      "priority": 32
+    },
+    {
+      "step": 36,
+      "task_id": "T000034",
+      "name": "Agente-34",
+      "priority": 31
+    },
+    {
+      "step": 37,
+      "task_id": "T000001",
+      "name": "Agente-1",
+      "priority": 29
+    },
+    {
+      "step": 38,
+      "task_id": "T000038",
+      "name": "Agente-38",
+      "priority": 28
+    },
+    {
+      "step": 39,
+      "task_id": "T000015",
+      "name": "Agente-15",
+      "priority": 21
+    },
+    {
+      "step": 40,
+      "task_id": "T000022",
+      "name": "Agente-22",
+      "priority": 18
+    },
+    {
+      "step": 41,
+      "task_id": "T000025",
+      "name": "Agente-25",
+      "priority": 15
+    },
+    {
+      "step": 42,
+      "task_id": "T000047",
+      "name": "Agente-47",
+      "priority": 13
+    },
+    {
+      "step": 43,
+      "task_id": "T000009",
+      "name": "Agente-9",
+      "priority": 12
+    },
+    {
+      "step": 44,
+      "task_id": "T000035",
+      "name": "Agente-35",
+      "priority": 11
+    },
+    {
+      "step": 45,
+      "task_id": "T000013",
+      "name": "Agente-13",
+      "priority": 11
+    },
+    {
+      "step": 46,
+      "task_id": "T000042",
+      "name": "Agente-42",
+      "priority": 10
+    },
+    {
+      "step": 47,
+      "task_id": "T000043",
+      "name": "Agente-43",
+      "priority": 5
+    },
+    {
+      "step": 48,
+      "task_id": "T000003",
+      "name": "Agente-3",
+      "priority": 4
+    },
+    {
+      "step": 49,
+      "task_id": "T000000",
+      "name": "Agente-0",
+      "priority": 4
+    },
+    {
+      "step": 50,
+      "task_id": "T000029",
+      "name": "Agente-29",
+      "priority": 1
+    }
+  ]
+}
