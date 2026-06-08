@@ -1,0 +1,4 @@
+{
+  "status": "aborted",
+  "reason": "DEADLOCK DETECTADO! Ciclo encontrado no caminho: CYCLE-000 → CYCLE-001 → CYCLE-002 → CYCLE-003 → CYCLE-000\nExecução abortada preventivamente."
+}
