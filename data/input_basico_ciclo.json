@@ -1,0 +1,526 @@
+{
+  "tasks": [
+    {
+      "id": "T000000",
+      "name": "Agente-0",
+      "priority": 4,
+      "duration_ms": 2263,
+      "dependencies": []
+    },
+    {
+      "id": "T000001",
+      "name": "Agente-1",
+      "priority": 29,
+      "duration_ms": 1153,
+      "dependencies": []
+    },
+    {
+      "id": "T000002",
+      "name": "Agente-2",
+      "priority": 76,
+      "duration_ms": 3466,
+      "dependencies": [
+        "T000000",
+        "T000001"
+      ]
+    },
+    {
+      "id": "T000003",
+      "name": "Agente-3",
+      "priority": 4,
+      "duration_ms": 777,
+      "dependencies": []
+    },
+    {
+      "id": "T000004",
+      "name": "Agente-4",
+      "priority": 65,
+      "duration_ms": 4941,
+      "dependencies": [
+        "T000001"
+      ]
+    },
+    {
+      "id": "T000005",
+      "name": "Agente-5",
+      "priority": 72,
+      "duration_ms": 1638,
+      "dependencies": []
+    },
+    {
+      "id": "T000006",
+      "name": "Agente-6",
+      "priority": 76,
+      "duration_ms": 2288,
+      "dependencies": [
+        "T000005",
+        "T000004",
+        "T000003",
+        "T000000",
+        "T000001"
+      ]
+    },
+    {
+      "id": "T000007",
+      "name": "Agente-7",
+      "priority": 98,
+      "duration_ms": 1317,
+      "dependencies": []
+    },
+    {
+      "id": "T000008",
+      "name": "Agente-8",
+      "priority": 98,
+      "duration_ms": 2767,
+      "dependencies": [
+        "T000006",
+        "T000002",
+        "T000007",
+        "T000001",
+        "T000004"
+      ]
+    },
+    {
+      "id": "T000009",
+      "name": "Agente-9",
+      "priority": 12,
+      "duration_ms": 3122,
+      "dependencies": []
+    },
+    {
+      "id": "T000010",
+      "name": "Agente-10",
+      "priority": 46,
+      "duration_ms": 2827,
+      "dependencies": []
+    },
+    {
+      "id": "T000011",
+      "name": "Agente-11",
+      "priority": 49,
+      "duration_ms": 655,
+      "dependencies": [
+        "T000004",
+        "T000000",
+        "T000007",
+        "T000001"
+      ]
+    },
+    {
+      "id": "T000012",
+      "name": "Agente-12",
+      "priority": 74,
+      "duration_ms": 1585,
+      "dependencies": [
+        "T000004",
+        "T000010",
+        "T000009",
+        "T000005"
+      ]
+    },
+    {
+      "id": "T000013",
+      "name": "Agente-13",
+      "priority": 11,
+      "duration_ms": 1917,
+      "dependencies": [
+        "T000001",
+        "T000000",
+        "T000010",
+        "T000003",
+        "T000004"
+      ]
+    },
+    {
+      "id": "T000014",
+      "name": "Agente-14",
+      "priority": 49,
+      "duration_ms": 2287,
+      "dependencies": []
+    },
+    {
+      "id": "T000015",
+      "name": "Agente-15",
+      "priority": 21,
+      "duration_ms": 3042,
+      "dependencies": [
+        "T000010",
+        "T000013",
+        "T000005"
+      ]
+    },
+    {
+      "id": "T000016",
+      "name": "Agente-16",
+      "priority": 35,
+      "duration_ms": 594,
+      "dependencies": [
+        "T000006",
+        "T000010"
+      ]
+    },
+    {
+      "id": "T000017",
+      "name": "Agente-17",
+      "priority": 49,
+      "duration_ms": 2221,
+      "dependencies": [
+        "T000005",
+        "T000007",
+        "T000002",
+        "T000015"
+      ]
+    },
+    {
+      "id": "T000018",
+      "name": "Agente-18",
+      "priority": 100,
+      "duration_ms": 468,
+      "dependencies": [
+        "T000017",
+        "T000007",
+        "T000010",
+        "T000013",
+        "T000012"
+      ]
+    },
+    {
+      "id": "T000019",
+      "name": "Agente-19",
+      "priority": 41,
+      "duration_ms": 3296,
+      "dependencies": [
+        "T000001"
+      ]
+    },
+    {
+      "id": "T000020",
+      "name": "Agente-20",
+      "priority": 73,
+      "duration_ms": 2587,
+      "dependencies": [
+        "T000002",
+        "T000006"
+      ]
+    },
+    {
+      "id": "T000021",
+      "name": "Agente-21",
+      "priority": 51,
+      "duration_ms": 3768,
+      "dependencies": [
+        "T000016"
+      ]
+    },
+    {
+      "id": "T000022",
+      "name": "Agente-22",
+      "priority": 18,
+      "duration_ms": 2030,
+      "dependencies": [
+        "T000010"
+      ]
+    },
+    {
+      "id": "T000023",
+      "name": "Agente-23",
+      "priority": 47,
+      "duration_ms": 1806,
+      "dependencies": [
+        "T000020",
+        "T000022",
+        "T000011",
+        "T000016",
+        "T000015"
+      ]
+    },
+    {
+      "id": "T000024",
+      "name": "Agente-24",
+      "priority": 64,
+      "duration_ms": 754,
+      "dependencies": [
+        "T000020"
+      ]
+    },
+    {
+      "id": "T000025",
+      "name": "Agente-25",
+      "priority": 15,
+      "duration_ms": 1262,
+      "dependencies": []
+    },
+    {
+      "id": "T000026",
+      "name": "Agente-26",
+      "priority": 77,
+      "duration_ms": 3844,
+      "dependencies": [
+        "T000011",
+        "T000019",
+        "T000008",
+        "T000018",
+        "T000022"
+      ]
+    },
+    {
+      "id": "T000027",
+      "name": "Agente-27",
+      "priority": 88,
+      "duration_ms": 4408,
+      "dependencies": [
+        "T000015",
+        "T000024",
+        "T000007",
+        "T000010"
+      ]
+    },
+    {
+      "id": "T000028",
+      "name": "Agente-28",
+      "priority": 38,
+      "duration_ms": 3571,
+      "dependencies": [
+        "T000018",
+        "T000011"
+      ]
+    },
+    {
+      "id": "T000029",
+      "name": "Agente-29",
+      "priority": 1,
+      "duration_ms": 2167,
+      "dependencies": [
+        "T000023"
+      ]
+    },
+    {
+      "id": "T000030",
+      "name": "Agente-30",
+      "priority": 82,
+      "duration_ms": 4168,
+      "dependencies": [
+        "T000015",
+        "T000026",
+        "T000013",
+        "T000019"
+      ]
+    },
+    {
+      "id": "T000031",
+      "name": "Agente-31",
+      "priority": 70,
+      "duration_ms": 4354,
+      "dependencies": [
+        "T000017",
+        "T000015",
+        "T000022",
+        "T000016"
+      ]
+    },
+    {
+      "id": "T000032",
+      "name": "Agente-32",
+      "priority": 77,
+      "duration_ms": 2665,
+      "dependencies": []
+    },
+    {
+      "id": "T000033",
+      "name": "Agente-33",
+      "priority": 40,
+      "duration_ms": 1971,
+      "dependencies": [
+        "T000013",
+        "T000016",
+        "T000024"
+      ]
+    },
+    {
+      "id": "T000034",
+      "name": "Agente-34",
+      "priority": 31,
+      "duration_ms": 4657,
+      "dependencies": []
+    },
+    {
+      "id": "T000035",
+      "name": "Agente-35",
+      "priority": 11,
+      "duration_ms": 3991,
+      "dependencies": []
+    },
+    {
+      "id": "T000036",
+      "name": "Agente-36",
+      "priority": 98,
+      "duration_ms": 4373,
+      "dependencies": []
+    },
+    {
+      "id": "T000037",
+      "name": "Agente-37",
+      "priority": 85,
+      "duration_ms": 3903,
+      "dependencies": [
+        "T000021"
+      ]
+    },
+    {
+      "id": "T000038",
+      "name": "Agente-38",
+      "priority": 28,
+      "duration_ms": 4427,
+      "dependencies": [
+        "T000023",
+        "T000026",
+        "T000034",
+        "T000031"
+      ]
+    },
+    {
+      "id": "T000039",
+      "name": "Agente-39",
+      "priority": 67,
+      "duration_ms": 3708,
+      "dependencies": [
+        "T000025",
+        "T000028",
+        "T000031",
+        "T000030",
+        "T000033"
+      ]
+    },
+    {
+      "id": "T000040",
+      "name": "Agente-40",
+      "priority": 32,
+      "duration_ms": 1850,
+      "dependencies": []
+    },
+    {
+      "id": "T000041",
+      "name": "Agente-41",
+      "priority": 44,
+      "duration_ms": 182,
+      "dependencies": []
+    },
+    {
+      "id": "T000042",
+      "name": "Agente-42",
+      "priority": 10,
+      "duration_ms": 492,
+      "dependencies": [
+        "T000039",
+        "T000029",
+        "T000040",
+        "T000022"
+      ]
+    },
+    {
+      "id": "T000043",
+      "name": "Agente-43",
+      "priority": 5,
+      "duration_ms": 2716,
+      "dependencies": [
+        "T000025"
+      ]
+    },
+    {
+      "id": "T000044",
+      "name": "Agente-44",
+      "priority": 66,
+      "duration_ms": 1959,
+      "dependencies": []
+    },
+    {
+      "id": "T000045",
+      "name": "Agente-45",
+      "priority": 70,
+      "duration_ms": 1093,
+      "dependencies": [
+        "T000040",
+        "T000031"
+      ]
+    },
+    {
+      "id": "T000046",
+      "name": "Agente-46",
+      "priority": 53,
+      "duration_ms": 1569,
+      "dependencies": [
+        "T000044",
+        "T000045",
+        "T000041",
+        "T000033",
+        "T000043"
+      ]
+    },
+    {
+      "id": "T000047",
+      "name": "Agente-47",
+      "priority": 13,
+      "duration_ms": 3541,
+      "dependencies": []
+    },
+    {
+      "id": "T000048",
+      "name": "Agente-48",
+      "priority": 60,
+      "duration_ms": 453,
+      "dependencies": [
+        "T000041",
+        "T000047"
+      ]
+    },
+    {
+      "id": "T000049",
+      "name": "Agente-49",
+      "priority": 32,
+      "duration_ms": 1579,
+      "dependencies": [
+        "T000032",
+        "T000030",
+        "T000041",
+        "T000039",
+        "T000048"
+      ]
+    },
+    {
+      "id": "CYCLE-000",
+      "name": "CycleNode-0",
+      "priority": 1,
+      "duration_ms": 100,
+      "dependencies": [
+        "CYCLE-003"
+      ]
+    },
+    {
+      "id": "CYCLE-001",
+      "name": "CycleNode-1",
+      "priority": 1,
+      "duration_ms": 100,
+      "dependencies": [
+        "CYCLE-000"
+      ]
+    },
+    {
+      "id": "CYCLE-002",
+      "name": "CycleNode-2",
+      "priority": 1,
+      "duration_ms": 100,
+      "dependencies": [
+        "CYCLE-001"
+      ]
+    },
+    {
+      "id": "CYCLE-003",
+      "name": "CycleNode-3",
+      "priority": 1,
+      "duration_ms": 100,
+      "dependencies": [
+        "CYCLE-002"
+      ]
+    }
+  ]
+}
