@@ -1,4 +1,5 @@
 # Workflow Engine — Orquestrador de Agentes Autônomos
+# Laura Costa Rocha (solo)
 
 Motor de execução que resolve a ordem exata de milhares de tarefas dependentes. Todas as estruturas de dados são implementadas manualmente — nenhuma biblioteca externa de grafos, heap ou algoritmos.
 
